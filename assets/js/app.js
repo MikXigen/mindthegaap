@@ -30,6 +30,7 @@ const scrollToAnchor = () => {
             link.addEventListener('click', (e) => {
                 
                 e.preventDefault();
+                console.log('run');
                 const target = document.querySelector(href);
                 target.scrollIntoView({behavior: "smooth"})
             })
