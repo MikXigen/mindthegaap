@@ -9,7 +9,7 @@ const headerShadow = () => {
         }
     });
 }
-const scrollToAnchor = () => {
+// const scrollToAnchor = () => {
 
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
@@ -19,11 +19,11 @@ const scrollToAnchor = () => {
     
         $('html, body').animate({
             'scrollTop': $target.offset().top
-        }, 600, 'swing', function () {
+        }, 100, function () {
             window.location.hash = target;
         });
     });
-}
+// }
 
 document.addEventListener('DOMContentLoaded', () => {
 
