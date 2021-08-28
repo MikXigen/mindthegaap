@@ -106,9 +106,14 @@ section:nth-of-type(even) {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 500px;
     max-width: 80%;
     max-height: 85vh;
     background: #292929;
+}
+.promo h2 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 .promo img {
     transition: opacity .2s ease-out;
@@ -167,7 +172,7 @@ section:nth-of-type(even) {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding: 100px 0;
 } 
 .cnt-item {
     padding: 20px;
@@ -230,4 +235,31 @@ section:nth-of-type(even) {
     top: 4px;
     left: -40px;
     font-size: 24px;
+}
+.center-text {
+    text-align: center;
+}
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 200px);
+}
+.social {
+    border-top: 2px solid white;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.social i {
+    font-size: 24px;
+    padding: 20px;
+}
+.social a {
+    text-decoration: none !important;
+}
+.mailto {
+    line-height: 2;
+    font-size: 40px;
+    text-decoration: none !important;
 }
