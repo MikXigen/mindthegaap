@@ -267,6 +267,11 @@ section:nth-of-type(even) {
     font-size: 40px;
     text-decoration: none !important;
 }
+@media (max-width: 576px) {
+    .mailto {
+        font-size: 30px;
+    }
+}
 .revonmob {
     flex-direction: column-reverse;
 }
