@@ -187,6 +187,9 @@ section:nth-of-type(even) {
 .cnt-item li p {
     margin-bottom: 0;
 }
+.cnt-item img {
+    max-width: 100%;
+}
 @media (min-width: 992px) {
     .cnt-item {
         width: 50%
