@@ -192,7 +192,8 @@ section:nth-of-type(even) {
 }
 @media (min-width: 992px) {
     .cnt-item {
-        width: 50%
+        width: 50%;
+        margin: 0 auto;
     }
 }
 @media (max-width: 991px) {
@@ -265,4 +266,7 @@ section:nth-of-type(even) {
     line-height: 2;
     font-size: 40px;
     text-decoration: none !important;
+}
+.revonmob {
+    flex-direction: column-reverse;
 }
