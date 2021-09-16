@@ -271,7 +271,7 @@ section:nth-of-type(even) {
     .mailto {
         font-size: 30px;
     }
-}
-.revonmob {
-    flex-direction: column-reverse;
+    .revonmob {
+        flex-direction: column-reverse;
+    }
 }
