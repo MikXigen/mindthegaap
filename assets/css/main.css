@@ -193,7 +193,7 @@ section:nth-of-type(even) {
 }
 @media (min-width: 992px) {
     .cnt-item {
-        width: 50%;
+        width: 33%;
         margin: 0 auto;
     }
 }
